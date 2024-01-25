@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Styling with CSS</title>
+    <link href="home.css" rel="stylesheet" type="text/css"/></head>
+<body bgcolor="#333">
+<div id="header"><br>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                width: 100%;
+                height: 100px;
+                right: 20%;
+                left: 20%;
+            }
+            .button{
+                width: 100px;
+                height: 38px;
+                border-radius:35px;
+                font-size: 25px;
+                font-family: sans-serif;
+                background-color: darkgrey;
+            }
+            .button:hover{
+                background-color: blueviolet;
+                cursor: pointer;
+            }
+            .search{
+                width: 490px;
+                background-color: azure;
+                height: 38px;
+                border-radius: 35px;
+                font-size: 25px;
+                text-align: left;
+            }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 24px;
+            }
+            li a img{
+                background-color: black;
+            }
+            li a:hover,.dropdown:hover .dropbtn{
+                background-color: red;
+            }
+            li.dropdown{
+                display: inline-block;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: coral;
+                min-width: 160px;
+                box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover{
+                background-color: yellowgreen;
+            }
+            .dropdown:hover .dropdown-content{
+                display: block;
+            }
+
+
+
+            li a:hover,.dropdown2:hover .dropbtn2{
+                background-color: red;
+            }
+            li.dropdown2{
+                display: inline-block;
+            }
+            .dropdown-content2{
+                display: none;
+                position: absolute;
+                background-color: lightcoral;
+                min-width: 160px;
+                box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content2 a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content2 a:hover{
+                background-color: #f1f1f1;
+            }
+            .dropdown2:hover .dropdown-content2{
+                display: block;
+            }
+
+
+            li a:hover,.dropdown2:hover .dropbtn2{
+                background-color: red;
+            }
+            li.dropdown2{
+                display: inline-block;
+            }
+            .dropdown-content2{
+                display: none;
+                position: absolute;
+                background-color: lightcoral;
+                min-width: 160px;
+                box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content2 a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content2 a:hover{
+                background-color: #f1f1f1;
+            }
+            .dropdown2:hover .dropdown-content2{
+                display: block;
+            }
+
+
+
+            li a:hover,.dropdown3:hover .dropbtn3{
+                background-color: red;
+            }
+            li.dropdown3{
+                display: inline-block;
+            }
+            .dropdown-content3{
+                display: none;
+                position: absolute;
+                background-color: yellow;
+                min-width: 160px;
+                box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content3 a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content3 a:hover{
+                background-color: #f1f1f1;
+            }
+            .dropdown3:hover .dropdown-content3{
+                display: block;
+            }
+
+
+            li a:hover,.dropdown3:hover .dropbtn3{
+                background-color: red;
+            }
+            li.dropdown3{
+                display: inline-block;
+            }
+            .dropdown-content3{
+                display: none;
+                position: absolute;
+                background-color: blueviolet;
+                min-width: 160px;
+                box-shadow: 0px 8px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown-content3 a{
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content3 a:hover{
+                background-color: #f1f1f1;
+            }
+            .dropdown3:hover .dropdown-content3{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+    <form action="form.php" method="post">
+    <ul class="eric">
+        <li class="dropdown2"> <a class="dropbtn2" href="#Home">Proofs</a>
+            <div class="dropdown-content2">
+                <a href="#">Testimonial</a>
+                <a href="#">Our Sites</a>
+                <a href="http://localhost:63342/mine/others/home.html?_ijt=h2i3pijlg7edob7l353d2qur5d#">Visit Us</a>
+            </div>
+        </li>
+        <li class="dropdown"><a class="dropbtn">News</a>
+            <div class="dropdown-content">
+                <a href="#">Updated News</a>
+                <a href="#">Books</a>
+                <a href="#">Courses</a>
+            </div> </li>
+        <li class="dropdown3"><a class="dropbtn3" href="#Contact">Contact</a>
+            <div class="dropdown-content3">
+                <a href="#">Telephone</a>
+                <a href="mailto:erictuyishime574@gmail.com">E-mail</a>
+                <a href="#">Other Way</a>
+            </div>
+        </li>
+        <li class="dropdown3"><a class="dropbtn3" href="#About">About</a>
+            <div class="dropdown-content3">
+                <a href="#">Our Services</a>
+                <a href="#">Who We Are</a>
+                <a href="#">Find Us</a>
+            </div>
+        </li>
+        <input type="text" name="search" size="40" placeholder="Search for training type" height="80" class="search" oninput="openMenu()"><input type="submit" class="button" name="search" value="Search">
+    </ul>
+    <p class="menu" onclick="openMenu()"><b>Menu</b>&nbsp;&nbsp;&nbsp;</p>
+    <img src="menu.jpg" class="menu-icon" onclick="openMenu()">
+    </form>
+    </body>
+    </html>
+</div>
+<div id="leftcol">
+    <a href="#"><img src="telecom.png" width="150px" height=240px"></a>
+
+</div>
+<div id="content"><br>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            menu design- easy tutorial
+        </title>
+        <link rel="stylesheet" href="my%20menu.css" type="text/css">
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="menu-box" id="menu">
+            <div class="right-links">
+                <a href="form.html">SIGN UP</a>&nbsp;&nbsp;<a href="third.html">LOGIN</a>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAMAAAAqJH57AAAAWlBMVEX///8AAADh4eHm5ub09PT6+vqxsbG4uLisrKwEBATLy8tYWFi7u7uAgIDW1taDg4OkpKSVlZVPT08hISFqampzc3MaGhqLi4sWFhZHR0ecnJwzMzM8PDwpKSntQZlnAAADQklEQVRoge1aa5eCIBD1rZGRleWj3f//NzdXRjBEQGznnD3cj4VcmBnuDI8g8PDw8PDw8PgniCjJqgEZodGfkZaXY9eGHG13vJTxh1nTqD+Gyzj2Ufox3qS6KmhHXKvkI7zRaej9oOT9/ee0v9OjenW6HPW+3MnZkHfAeUebZzcL4jC8ZTvxJpKh2+u9L2g8gBb9/dq+N6h3mTZ5znv9akg8Xz9pTJqveaMncScuZj0+GlWXpHnMWhauxA30dHitmu9qTSzS6ntsNqJxI76L08i1zXOx+d2FuBYmPMxBr4+NMO16O7Ew444afkO7HWbd8D4s1EFUnY2+FqLaThoyxwin/HvbxUm2f/pCwgXE1MUcfNRPezWrHYhFausA577apoPc4JbpIxmz08H6wwkZVBE3O3uzlXEIzxuJhy6Yolh1EU0Csj3dJZOk2FQpNdjapbShYG+LIIvA1m75pgF7m4//BHZyIg4C6OZk+kECX+jT4jqmpGkaLT1rf5P/okTVSUIWFAcqx8qMOIWdRCHl48trOMuGyF8kF+lXSDpXs41PxMLrITWnSh/kyzqbPliQmcVYrxQRMi61UvqjHBeQLLSQq3sjZtgtyv0wTZWoy1ClkyDfRxPimDX+WvgPgnUu5pBdltwAdbjJ/ppNYFlFcqZtIjXkhsXQg4pK9pCMi9LYbFyHMe4BRajy/gAwtxz3MpibW4V93g2+ZuoX4tbc0Z1mCeazOZZrpg64OHR64ogNUl0rc7+mi36fg9XsrX5FQwW1sgK5Z2WvSwAp1ldzEBJrlTL4FnLaWsUEAqov5zKTMZb8qEYZ1QzUYHQjKqOlL24a13MpCJM+XZkxT3qj1Yi9mdOpbjlptrb/Z86f8DNebOOtZzwNw9NtvFyFmJ/xahK8Ogyv9sSrt6cV+Pd7DLx9lbCXfIfdXjK13UtO6Wq//bOZsTHPDPDOSRDPhvh52JbTVsCW8zDEM0C8c0/Es168823EM33EewyXCxi3uxvE+yrEOzrEe0n5LnYdQxLe6S4W8f4Z8c7d4p3Beed3BohvKxDfkwR4b2gCxHdDAd5bqV9upPdhA7DexA3Aegc4IkZ5+zgB5b2nh4eHh4eHx6fxAxDEKcWixbavAAAAAElFTkSuQmCC" onclick="closeMenu()">
+            </div>
+            <div class="menu-links">
+                <a href="#"> HOME</a>
+                <a href="RAN.html">START LEARNING RAN</a>
+                <a href="transmission.html">LEARN TRANSMISSION</a>
+                <a href="samary.html">SAMARY NOTES</a>
+                <a href="assessment.html">ASSESSMENT</a>
+                <a href="mailto:erictuyishime574@gmail.com">CONTACT US</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menu = document.getElementById("menu");
+
+        function closeMenu(){
+            menu.style.top ="-100vh";
+        }
+
+        function openMenu(){
+            menu.style.top ="0";
+        }
+
+    </script>
+    </body>
+    </html>
+</div>
+<div id="rightcol">
+    <a href="#"><img src="telecom.png" width="290px" height=240px">
+</div>
+<footer><div id="footer"><br>
+    <center><p><a href="#">Created By Eric Tuyishime</a></p></center>
+</div></footer>
+
+</body>
+</html>

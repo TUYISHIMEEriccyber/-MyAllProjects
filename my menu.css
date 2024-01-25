@@ -1,0 +1,126 @@
+.container{
+    width: 1000px;
+    height: 100vh;
+    background: yellow;
+    position: relative;
+    overflow: hidden;
+}
+.menu-icon{
+    width: 40px;
+    position: absolute;
+    top: 23.5%;
+    right: 2%;
+    cursor: pointer;
+    border-radius: 34px;
+}
+.menu-icon:hover{
+    width: 45px;
+    position: absolute;
+    top: 20.5%;
+    right: 2%;
+    cursor: pointer;
+    border-radius: 34px;
+    background-color: #f92537;
+}
+.menu{
+    width: 98px;
+    font-size: 28px;
+    border-right: 7px;
+    top: 1%;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    margin-right: 40px;
+    color: white;
+    background: black;
+    overflow: inherit;
+    transition: top 1s;
+    border-radius: 35px;
+    padding-left: 15px;
+}
+.menu:hover{
+    width: 105px;
+    font-size: 28px;
+    border-right: 3px;
+    top: 1.5%;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    margin-right: 40px;
+    color: white;
+    background-color: brown;
+    overflow: inherit;
+    transition: top 1s;
+    border-radius: 35px;
+    padding-left: 15px;
+}
+.menu-box{
+    width: 93%;
+    background: #242449;
+    position: absolute;
+    top: 0;
+    right: 4%;
+    bottom: 4%;
+}
+.right-links{
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    text-align: right;
+}
+.right-links img{
+    width: 50px;
+    margin-right: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    left: 70%;
+}
+.right-links img:hover{
+    width: 50px;
+    margin-right: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: darkmagenta;
+}
+.right-links a{
+    text-decoration: none;
+    color: #fff;
+    background: #f92537;
+    padding: 15px 40px;
+    border-radius: 35px;
+}
+.right-links a:hover{
+    background-color:  greenyellow;
+    border-radius: 35px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: fit-content;
+    margin: 30px 0;
+    font-size: 36px;
+    text-align: center;
+}
+.menu-links a::after{
+    content: "";
+    width: 90px;
+    height: 7px;
+    background-color: #f92537;
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.menu-links a:hover{
+    font-weight: 700;
+    text-align: center;
+
+}
+.menu-links a:hover::after {
+    display: inline-block;
+}
