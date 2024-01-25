@@ -1,14 +1,14 @@
 var MenuBtn = document.getElementById("MenuBtn")
 var sidenav = document.getElementById("sidenav")
 var menu = document.getElementById("menu")
-sidenav.style.right = "-220px";
+sidenav.style.right = "-250px";
 MenuBtn.onclick= function() {
-    if (sidenav.style.right == "-220px"){
+    if (sidenav.style.right == "-250px"){
         sidenav.style.right = "0";
         menu.src = "close.jpg";
     }
     else {
-        sidenav.style.right = "-220px";
+        sidenav.style.right = "-250px";
         menu.src = "menu.jpg";
     }
 
@@ -25,9 +25,19 @@ var myul = document.getElementById("eline");
 
     if(myh1.style.background =="grey"){
         h1.onclick = function mee(){
+        myh1.style.background = "red";
     }}
     else {
         h1.onclick = function changeColor() {
             myh1.style.background = "grey";}
     }
-
+p.onclick = function myChange () {
+    myp.style.background = "yellow";
+}
+a.onclick = function mine(){
+    mya.style.background = "blue";
+    mya1.style.background = "grey";
+}
+ul.onclick = function  man(){
+    myul.style.background = "brown";
+}
